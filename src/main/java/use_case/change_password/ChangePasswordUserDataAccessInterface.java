@@ -12,4 +12,10 @@ public interface ChangePasswordUserDataAccessInterface {
      * @param user the user whose password is to be updated
      */
     void changePassword(User user);
+
+    /**
+    * Sets the current user by their name.
+    * @param name the name of the current user
+    */
+    void setCurrentUser(String name);
 }
